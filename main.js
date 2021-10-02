@@ -1,10 +1,10 @@
-function randomInteger(min, max) {
+function getRandomInteger(min, max) {
   if(min>=0 && max>=0){
     return Math.floor(Math.random() * (max - min + 1)) + min;
-  } else {console.log('Введите числа больше 0')}
+  }  else if (min >= max){
+    console.log('Минимальное число не может быть больше или равно максимальному')
+  } else {
+    console.log('Введите числа больше 0')}
 }
 
-console.log(randomInteger(-1,3));
-console.log('changes');
-console.log('changes2');
-console.log('changes3');
+console.log(getRandomInteger(2,3));
