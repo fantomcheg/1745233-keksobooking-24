@@ -5,4 +5,5 @@ function randomInteger(min, max) {
 }
 
 console.log(randomInteger(-1,3));
-console.log('changes')
+console.log('changes');
+console.log('changes2');
