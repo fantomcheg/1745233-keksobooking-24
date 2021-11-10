@@ -43,7 +43,7 @@ const createObj = (id) => {
     },
     offer:{
       title:'Заголовок',
-      address:`${location.lat}, $(location.lng)`,
+      address:`${location.lat}, ${location.lng}`,
       price:getRandomInteger(1,100),
       type:TYPES[getRandomInteger(0,TYPES.length)],
       rooms:getRandomInteger(1,100),
