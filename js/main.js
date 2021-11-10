@@ -61,8 +61,8 @@ const createObj = (id) => {
 
 const createArrayOfObjects=()=>{
   const myObjects=[];
-  for (let i=1;i<=COUNT_OBJECTS;i++){
-    myObjects.push(createObj(i));
+  for (let num=1;num<=COUNT_OBJECTS;num++){
+    myObjects.push(createObj(num));
   }
   return myObjects;
 };
